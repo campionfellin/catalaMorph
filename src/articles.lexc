@@ -1,0 +1,14 @@
+Multichar_Symbols +DefArt +IndefArt +Mas +Fem +Sg +Pl
+
+
+LEXICON Root
+
+el+DefArt+Mas+Sg:el	#;
+el+DefArt+Fem+Sg:la	#;
+el+DefArt+Mas+Pl:els	#;
+el+DefArt+Fem+Pl:les	#;
+
+un+IndefArt+Mas+Sg:un 	#;
+un+IndefArt+Fem+Sg:una	#;
+un+IndefArt+Mas+Pl:uns	#;
+un+IndefArt+Fem+Pl:unes	#;
