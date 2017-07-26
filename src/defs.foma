@@ -1,1 +1,9 @@
-define V [a | e | i | o | u ];
+define V [ a | à | e | è | é | i | í | ï | o | ò | ó | u | ú | ü | y ];
+
+read lexc ./articles/articles.lexc
+define Articles;
+
+define Grammar Articles;
+regex Grammar;
+
+
