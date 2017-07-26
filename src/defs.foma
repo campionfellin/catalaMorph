@@ -1,4 +1,7 @@
 define V [ a | à | e | è | é | i | í | ï | o | ò | ó | u | ú | ü | y ];
+define C [ b | c | ç | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | z ];
+
+Multichar_Consonants gu ig ix ll l-l ny qu rr ss tg tj ts tx tz
 
 read lexc ./articles/articles.lexc
 define Articles;
