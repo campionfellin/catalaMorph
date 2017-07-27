@@ -3,8 +3,8 @@ Multichar_Symbols +DefArt +IndefArt +Mas +Fem +Sg +Pl
 
 LEXICON Root
 
-el+DefArt+Mas+Sg:el	#;
-el+DefArt+Fem+Sg:la	#;
+el+DefArt+Mas+Sg:el		#;
+el+DefArt+Fem+Sg:la		#;
 el+DefArt+Mas+Pl:els	#;
 el+DefArt+Fem+Pl:les	#;
 

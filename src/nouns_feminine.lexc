@@ -1,0 +1,26 @@
+Multichar_Symbols +Nom +Fem +Sg +Pl
+
+LEXICON Root
+Noun;
+
+Lexicon Noun
+Feminine;
+
+LEXICON Feminine
+
+gata		FemNomInf;
+noia		FemNomInf;
+dona		FemNomInf;
+filla		FemNomInf;
+capitana	FemNomInf;
+padrina		FemNomInf;
+estació		FemNomInf;
+missió		FemNomInf;
+vocal		FemNomInf;
+cantant		FemNomInf;
+mare		FemNomInf;
+
+
+LEXICON FemNomInf
++Nom+Fem+Sg:0	#;
++Nom+Fem+Pl:^s	#;

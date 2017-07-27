@@ -1,0 +1,25 @@
+Multichar_Symbols +Nom +Mas +Sg +Pl
+
+LEXICON Root
+Noun;
+
+Lexicon Noun
+Masculine;
+
+LEXICON Masculine
+
+gat			MascNomInf;
+noi 		MascNomInf;
+ome			MascNomInf;
+fill		MascNomInf;
+capità		MascNomInf;
+padrí		MascNomInf;
+carbó		MascNomInf;
+fanal		MascNomInf;
+cantant		MascNomInf;
+pare		MascNomInf;
+
+
+LEXICON MascNomInf
++Nom+Mas+Sg:0	#;
++Nom+Mas+Pl:^s	#;

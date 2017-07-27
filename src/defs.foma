@@ -1,12 +1,27 @@
+
+!!!Multichar_Symbols gu ig ix ll ny qu rr ss tg tj ts tx tz;!!!
+
 define V [ a | à | e | è | é | i | í | ï | o | ò | ó | u | ú | ü | y ];
 define C [ b | c | ç | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | z ];
 
-Multichar_Consonants gu ig ix ll l-l ny qu rr ss tg tj ts tx tz
-
-read lexc ./articles/articles.lexc
+read lexc ./src/articles.lexc
 define Articles;
 
-define Grammar Articles;
+read lexc ./src/nouns_masculine.lexc
+define MascNouns;
+
+read lexc ./src/nouns_feminine.lexc
+define FemNouns;
+
+regex MascNouns | FemNouns;
+define Nouns;
+
+regex Articles | Nouns;
+define Lexicon;
+
+define Cleanup "^" -> 0;
+
+define Grammar Lexicon .o. Cleanup;
 regex Grammar;
 
 
