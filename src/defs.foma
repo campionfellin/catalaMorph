@@ -19,7 +19,10 @@ define Nouns;
 read lexc ./src/adjectives.lexc
 define Adjectives;
 
-regex Articles | Nouns | Adjectives;
+read lexc ./src/verbs.lexc
+define Verbs;
+
+regex Articles | Nouns | Adjectives | Verbs;
 define Lexicon;
 
 

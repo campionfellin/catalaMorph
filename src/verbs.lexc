@@ -1,0 +1,47 @@
+Multichar_Symbols +Mas +Fem +Sg +Pl
+
+LEXICON Root
+Verbs;
+
+LEXICON Verbs
+
+anar	Verb;
+cantar	Verb;
+estar	Verb;
+parlar	Verb;
+
+haver	Verb;
+poder	Verb;
+saber	Verb;
+soler	Verb;
+valer	Verb;
+voler	Verb;
+
+córrer	Verb;
+créixer	Verb;
+tòrcer	Verb;
+
+caure	Verb;
+perdre	Verb;
+vendre	Verb;
+
+dir		Verb;
+dur		Verb;
+fer		Verb;
+
+dormir	Verb;
+sentir	Verb;
+venir	Verb;
+
+servir	Verb;
+eixir	Verb;
+
+
+
+LEXICON Verb
+
++V+Mas+Sg:0		#;
+
+
+
+
