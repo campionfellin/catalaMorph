@@ -1,0 +1,31 @@
+Multichar_Symbols +Mas +Fem +Sg +Pl
+
+LEXICON Root
+Adjectives;
+
+LEXICON Adjectives
+
+baix	Adjective;
+sec		Adjective;
+petit	Adjective;
+vell	Adjective;
+verd	Adjective;
+trist	Adjective;
+
+
+!!!next adjectives are special cases!!!
+
+europeu:europeu+Adj+Mas+Sg		#;
+europea:europea+Adj+Fem+Sg		#;
+jueu:jueu+Adj+Mas+Sg			#;
+jueva:jueva+Adj+Fem+Sg			#;
+
+
+LEXICON Adjective
++Adj+Mas+Sg:0	#;
++Adj+Fem+Sg:a 	#;
++Adj+Mas+Pl:s 	#;
++Adj+Fem+Pl:es	#;
+
+
+

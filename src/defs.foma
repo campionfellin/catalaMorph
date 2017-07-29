@@ -16,8 +16,13 @@ define FemNouns;
 regex MascNouns | FemNouns;
 define Nouns;
 
-regex Articles | Nouns;
+read lexc ./src/adjectives.lexc
+define Adjectives;
+
+regex Articles | Nouns | Adjectives;
 define Lexicon;
+
+
 
 define Cleanup "^" -> 0;
 
