@@ -1,0 +1,23 @@
+Multichar_Symbols +V +1p +2p +3p +Sg +Pl +Pres +Ind +Inf +ar +er +ir
+
+LEXICON Root
+Verbs;
+
+Lexicon Verbs
+
+anar	Verb;
+cantar	Verb;
+estar	Verb;
+parlar	Verb;
+
+LEXICON Verb
+
++V+1p+Sg+Pres+Inf:0					#;
++V+ar+1p+Sg+Pres+Gerund:^ant		#;
++V+er+1p+Sg+Pres+Gerund:^ent		#;
++V+ir+1p+Sg+Pres+Gerund:^int		#;
+
+
+
+
+

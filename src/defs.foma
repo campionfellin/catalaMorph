@@ -22,7 +22,12 @@ define Adjectives;
 read lexc ./src/verbs.lexc
 define Verbs;
 
-regex Articles | Nouns | Adjectives | Verbs;
+define arVerbCorrecter {ar} -> 0 || _ {^};
+define erVerbCorrecter {er} -> 0 || _ {^};
+define irVerbCorrecter {ir} -> 0 || _ {^};
+
+regex Articles | Nouns | Adjectives | [Verbs .o. arVerbCorrecter .o. irVerbCorrecter .o. erVerbCorrecter];
+
 define Lexicon;
 
 

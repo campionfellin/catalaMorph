@@ -1,46 +1,115 @@
-Multichar_Symbols +Mas +Fem +Sg +Pl
+Multichar_Symbols +Sg +Pl +V +1p +2p +3p +Pres +Past +Ind +Inf +Imp +Part +Passive
 
 LEXICON Root
 Verbs;
 
 LEXICON Verbs
 
-anar	Verb;
-cantar	Verb;
-estar	Verb;
-parlar	Verb;
+anar	arVerb;
+cantar	arVerb;
+estar	arVerb;
+parlar	arVerb;
 
-haver	Verb;
-poder	Verb;
-saber	Verb;
-soler	Verb;
-valer	Verb;
-voler	Verb;
+haver	erVerb;
+poder	erVerb;
+saber	erVerb;
+soler	erVerb;
+valer	erVerb;
+voler	erVerb;
 
-córrer	Verb;
-créixer	Verb;
-tòrcer	Verb;
+córrer	erVerb;
+créixer	erVerb;
+tòrcer	erVerb;
 
-caure	Verb;
-perdre	Verb;
-vendre	Verb;
+caure	reVerb;
+perdre	reVerb;
+vendre	reVerb;
 
-dir		Verb;
-dur		Verb;
-fer		Verb;
+dir		otherVerb;
+dur		otherVerb;
+fer		otherVerb;
 
-dormir	Verb;
-sentir	Verb;
-venir	Verb;
+dormir	irVerb;
+sentir	irVerb;
+venir	irVerb;
 
-servir	Verb;
-eixir	Verb;
+servir	irVerb;
+eixir	irVerb;
 
 
 
-LEXICON Verb
+LEXICON arVerb
 
-+V+Mas+Sg:0		#;
++V+Pres+Inf:0					#;
++V+ar+Pres+Gerund:^ant			#;
++V+ar+Past+Passive+Part:^at 	#;
++V+ar+Past+Passive+Part:^ada	#;
++V+ar+Pres+1p+Sg+Ind:^o			#;
++V+ar+Pres+2p+Sg+Ind:^es 		#;
++V+ar+Pres+3p+Sg+Ind:^a 		#;
++V+ar+Pres+1p+Pl+Ind:^em		#;
++V+ar+Pres+2p+Pl+Ind:^eu 		#;
++V+ar+Pres+3p+Pl+Ind:^en		#;
++V+ar+Imp+1p+Sg+Ind:^ava 		#;
++V+ar+Imp+2p+Sg+Ind:^aves 		#;
++V+ar+Imp+3p+Sg+Ind:^ava 		#;
++V+ar+Imp+1p+Pl+Ind:^ávem		#;
++V+ar+Imp+2p+Pl+Ind:^áveu 		#;
++V+ar+Imp+3p+Pl+Ind:^aven 		#;
+
+
+
+LEXICON erVerb
+
++V+Pres+Inf:0					#;
++V+er+Pres+Gerund:^ent			#;
++V+er+Past+Passive+Part:^ut 	#;
++V+er+Past+Passive+Part:^uda 	#;
++V+er+Pres+1p+Sg+Ind:^o 		#;
++V+er+Pres+2p+Sg+Ind:^s 		#;
++V+er+Pres+3p+Sg+Ind:0			#;
++V+er+Pres+1p+Pl+Ind:^em		#;
++V+er+Pres+2p+Pl+Ind:^eu		#;
++V+er+Pres+3p+Pl+Ind:^en		#;
++V+er+Imp+1p+Sg+Ind:^ia 		#;
++V+er+Imp+2p+Sg+Ind:^ies 		#;
++V+er+Imp+3p+Sg+Ind:^ia 		#;
++V+er+Imp+1p+Pl+Ind:^íem 		#;
++V+er+Imp+2p+Pl+Ind:^íeu 		#;
++V+er+Imp+3p+Pl+Ind:^ien 		#;
+
+LEXICON reVerb
+
++V+Pres+Inf:0					#;
++V+re+Pres+Gerund:^ent			#;
++V+re+Past+Passive+Part:^ut 	#;
++V+re+Past+Passive+Part:^uda 	#;
++V+er+Pres+1p+Sg+Ind:^o 		#;
++V+er+Pres+2p+Sg+Ind:^s 		#;
++V+er+Pres+3p+Sg+Ind:0			#;
++V+er+Pres+1p+Pl+Ind:^em		#;
++V+er+Pres+2p+Pl+Ind:^eu		#;
++V+er+Pres+3p+Pl+Ind:^en		#;
++V+er+Imp+1p+Sg+Ind:^ia 		#;
++V+er+Imp+2p+Sg+Ind:^ies 		#;
++V+er+Imp+3p+Sg+Ind:^ia 		#;
++V+er+Imp+1p+Pl+Ind:^íem 		#;
++V+er+Imp+2p+Pl+Ind:^íeu 		#;
++V+er+Imp+3p+Pl+Ind:^ien 		#;
+
+
+LEXICON irVerb
+
++V+Pres+Inf:0					#;
++V+ir+Pres+Gerund:^int			#;
++V+ir+Past+Passive+Part:^it 	#;
++V+ir+Past+Passive+Part:^ida 	#;
+
+
+
+LEXICON otherVerb
+
++V+Pres+Inf:0					#;
 
 
 

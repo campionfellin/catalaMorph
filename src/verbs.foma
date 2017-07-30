@@ -1,0 +1,4 @@
+
+
+
+define vbar {ar} -> 0 || _ {^} o;
